@@ -20,9 +20,8 @@ obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by D
     
 **Quantitative Comparison** </br>
 
-<p align="center">
-<img width=800 align="center"  src = "https://user-images.githubusercontent.com/15001857/101259263-007d7500-3752-11eb-8cbc-8a8fa4a56061.png" alt="Results"> </p>  </br> 
-**Table:** Quantitative comparison between different medical image denoising methods. Results are
+<img width=800 align="center"  src = "https://user-images.githubusercontent.com/15001857/101259263-007d7500-3752-11eb-8cbc-8a8fa4a56061.png" alt="Results">  </br> 
+**Table: ** Quantitative comparison between different medical image denoising methods. Results are
 obtained by calculating the mean on two evaluation metrics. In all comparing categories, the proposed
 method illustrates the consistency and outperforms the existing denoising methods. </br>
 
