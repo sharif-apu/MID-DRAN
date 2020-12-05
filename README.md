@@ -45,7 +45,7 @@ Denoised image(s) will be available in modelOutput/sampleImages/ </br>
 
 **To inference with custom setting execute the following command:**</br>
 ```python main.py -i -s path/to/inputImages -d path/to/outputImages -ns=sigma(s)``` </br>
-Here,-ns represents noise standard deviation (i.e., -ns=15,25,50),</br> -s presents root of source images (i.e., testingImages/),</br> -d presents destination root (modelOutput/)
+Here,-ns represents noise standard deviation (i.e., -ns=15,25,50),-s presents root of source images (i.e., testingImages/), -d presents destination root (modelOutput/)
 
 # Training
 **To train with your own dataset execute:**</br>
