@@ -7,3 +7,8 @@ Full paper can be downloaded from this link:
 Network Architecture
 
 <img src = "https://user-images.githubusercontent.com/15001857/101247318-24858a00-3743-11eb-97eb-1fd5c2f93ce0.png" alt="network">
+
+Denoising with DRAN
+<img src = "https://user-images.githubusercontent.com/15001857/101247318-24858a00-3743-11eb-97eb-1fd5c2f93ce0.png" alt="Results">
+
+
