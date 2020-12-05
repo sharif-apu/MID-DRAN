@@ -9,10 +9,13 @@ This is the official implementation of state-of-the-art medical image denoising 
 <img src = "https://user-images.githubusercontent.com/15001857/101247318-24858a00-3743-11eb-97eb-1fd5c2f93ce0.png" alt="network">
 
 # Denoising with DRAN
+**Qualitative Comparison**
 <img src = "https://user-images.githubusercontent.com/15001857/101258714-93b4ab80-374e-11eb-984d-9f64fd14bf63.png" alt="Results">
 Performance of existing medical image denoising methods in removing image noise at sigma=50.The existing denoising methods immensely failed in addressing a substantial amount of noise removal and susceptible to produce artefacts. (a) Noisy input. (b) Result obtained by BM3D. (c) Result
 obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by DRAN
 (proposed). (f) Reference sharp image. </br>
+
+**Quantitative Comparison**
 
 # Requirements
 **Python 3.8 </br>
@@ -41,7 +44,7 @@ Denoised image(s) will be available in modelOutput/sampleImages/ </br>
 Here,-ns represents noise standard deviation (i.e., -ns=15,25,50),</br> -s presents root of source images (i.e., testingImages/),</br> -d presents destination root (modelOutput/)
 
 # Training
-**To train with your own dataset execute: **</br>
+**To train with your own dataset execute:**</br>
 ```python main.py -ts -e X -b Y```
 To specify your trining images path, go to mainModule/config.json and update "trainingImagePath" entity. </br>You can specify the number of epoch with -e flag (i.e., -e 5) and number of images per batch with -b flag (i.e., b 24).</br>
 
