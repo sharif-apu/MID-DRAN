@@ -15,7 +15,7 @@ obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by D
 (proposed). (f) Reference sharp image.
 
 # Requirements
-**Python 3.8
+**Python 3.8** </br>
 Pytoch 1.5 
 Torchvision 0.6
 Cuda 10.1
@@ -23,9 +23,11 @@ Opencv
 scikit-learn
 
 # Installation
+'''
 git clone https://github.com/sharif-apu/MID-DRAN.git
 cd MID-DRAN
 pip install -r requirement.txt
+'''
 
 # Testing
 DRAN can be inferenced with pretrained weights and default setting as follows:
