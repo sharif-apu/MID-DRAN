@@ -33,7 +33,12 @@ Pytoch 1.5
 Torchvision 0.6 
 Cuda 10.1  
 Opencv 
-scikit-learn 
+scikit-image
+tensorboard
+etaprogress
+torchsummary
+ptflops
+matplotlib
 ```
 
 # Installation
