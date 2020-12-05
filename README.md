@@ -21,19 +21,19 @@ obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by D
 **Quantitative Comparison** </br>
 
 <img width=800 align="center"  src = "https://user-images.githubusercontent.com/15001857/101259263-007d7500-3752-11eb-8cbc-8a8fa4a56061.png" alt="Results">  </br> 
-**Table: ** Quantitative comparison between different medical image denoising methods. Results are
+**Table:** Quantitative comparison between different medical image denoising methods. Results are
 obtained by calculating the mean on two evaluation metrics. In all comparing categories, the proposed
 method illustrates the consistency and outperforms the existing denoising methods. </br>
 
 
 
 # Requirements
-```Python 3.8 </br>
-Pytoch 1.5 </br>
-Torchvision 0.6 </br>
-Cuda 10.1  </br>
-Opencv </br>
-scikit-learn </br>
+```Python 3.8 
+Pytoch 1.5 
+Torchvision 0.6 
+Cuda 10.1  
+Opencv 
+scikit-learn 
 ```
 
 # Installation
