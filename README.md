@@ -11,11 +11,15 @@ This is the official implementation of state-of-the-art medical image denoising 
 # Denoising with DRAN
 **Qualitative Comparison**
 <img src = "https://user-images.githubusercontent.com/15001857/101258714-93b4ab80-374e-11eb-984d-9f64fd14bf63.png" alt="Results">
-Performance of existing medical image denoising methods in removing image noise at sigma=50.The existing denoising methods immensely failed in addressing a substantial amount of noise removal and susceptible to produce artefacts. (a) Noisy input. (b) Result obtained by BM3D. (c) Result
+**Figure:** Performance of existing medical image denoising methods in removing image noise at sigma=50.The existing denoising methods immensely failed in addressing a substantial amount of noise removal and susceptible to produce artefacts. (a) Noisy input. (b) Result obtained by BM3D. (c) Result
 obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by DRAN
 (proposed). (f) Reference sharp image. </br>
 
 **Quantitative Comparison**
+<img src = "https://user-images.githubusercontent.com/15001857/101259263-007d7500-3752-11eb-8cbc-8a8fa4a56061.png" alt="Results">
+**Table:** Quantitative comparison between different medical image denoising methods. Results are
+obtained by calculating the mean on two evaluation metrics. In all comparing categories, the proposed
+method illustrates the consistency and outperforms the existing denoising methods. </br>
 
 # Requirements
 **Python 3.8 </br>
