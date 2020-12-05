@@ -15,7 +15,7 @@ obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by D
 (proposed). (f) Reference sharp image.
 
 # Requirements
-Python 3.8
+**Python 3.8
 Pytoch 1.5 
 Torchvision 0.6
 Cuda 10.1
