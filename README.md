@@ -5,23 +5,27 @@ This is the official implementation of state-of-the-art medical image denoising 
 **Full paper can be downloaded from this link:**
 
 # Network Architecture
-<p align="center">
-    <img src = "https://user-images.githubusercontent.com/15001857/101247318-24858a00-3743-11eb-97eb-1fd5c2f93ce0.png" alt="network">
-    <em>The overview of proposed network architecture. The proposed network incorporates novel dynamic residual attention blocks, which utilizes dynamic convolution and a noise gate. Also, the network leverage the residual learning along with the learning feature correlation.</em>
+<p>
+    <img align="center" src = "https://user-images.githubusercontent.com/15001857/101247318-24858a00-3743-11eb-97eb-1fd5c2f93ce0.png" alt="network">
+    <em>**Figure:**The overview of proposed network architecture. The proposed network incorporates novel dynamic residual attention blocks, which utilizes dynamic convolution and a noise gate. Also, the network leverage the residual learning along with the learning feature correlation.</em>
 </p>
 
 # Medical Image Denoising with DRAN </br>
 **Qualitative Comparison** </br>
-<img src = "https://user-images.githubusercontent.com/15001857/101258714-93b4ab80-374e-11eb-984d-9f64fd14bf63.png" alt="Results"> </br>
-**Figure:** Performance of existing medical image denoising methods in removing image noise at sigma=50.The existing denoising methods immensely failed in addressing a substantial amount of noise removal and susceptible to produce artefacts. (a) Noisy input. (b) Result obtained by BM3D. (c) Result
+<p>
+<img align="center" src = "https://user-images.githubusercontent.com/15001857/101258714-93b4ab80-374e-11eb-984d-9f64fd14bf63.png" alt="Results"> </br>
+<em>**Figure:** Performance of existing medical image denoising methods in removing image noise at sigma=50.The existing denoising methods immensely failed in addressing a substantial amount of noise removal and susceptible to produce artefacts. (a) Noisy input. (b) Result obtained by BM3D. (c) Result
 obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by DRAN
-(proposed). (f) Reference sharp image. </br>
-
+(proposed). (f) Reference sharp image. </em> </br>
+</p>
+    
 **Quantitative Comparison** </br>
-<img src = "https://user-images.githubusercontent.com/15001857/101259263-007d7500-3752-11eb-8cbc-8a8fa4a56061.png" alt="Results"> </br>
-**Table:** Quantitative comparison between different medical image denoising methods. Results are
+<p>
+<img align="center"  src = "https://user-images.githubusercontent.com/15001857/101259263-007d7500-3752-11eb-8cbc-8a8fa4a56061.png" alt="Results"> </br>
+</em>**Table:** Quantitative comparison between different medical image denoising methods. Results are
 obtained by calculating the mean on two evaluation metrics. In all comparing categories, the proposed
-method illustrates the consistency and outperforms the existing denoising methods. </br>
+method illustrates the consistency and outperforms the existing denoising methods.</em> </br>
+</p>
 
 # Requirements
 **Python 3.8 </br>
