@@ -5,8 +5,10 @@ This is the official implementation of state-of-the-art medical image denoising 
 **Full paper can be downloaded from this link:**
 
 # Network Architecture
-
-<img src = "https://user-images.githubusercontent.com/15001857/101247318-24858a00-3743-11eb-97eb-1fd5c2f93ce0.png" alt="network">
+<p align="center">
+    <img src = "https://user-images.githubusercontent.com/15001857/101247318-24858a00-3743-11eb-97eb-1fd5c2f93ce0.png" alt="network">
+    <em>The overview of proposed network architecture. The proposed network incorporates novel dynamic residual attention blocks, which utilizes dynamic convolution and a noise gate. Also, the network leverage the residual learning along with the learning feature correlation.</em>
+</p>
 
 # Medical Image Denoising with DRAN </br>
 **Qualitative Comparison** </br>
