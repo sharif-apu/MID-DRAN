@@ -45,12 +45,12 @@ Denoised image(s) will be available in modelOutput/sampleImages/ </br>
 
 **To inference with custom setting execute the following command:**</br>
 ```python main.py -i -s path/to/inputImages -d path/to/outputImages -ns=sigma(s)``` </br>
-Here,-ns represents noise standard deviation (i.e., -ns=15,25,50),-s presents root of source images (i.e., testingImages/), -d presents destination root (modelOutput/)
+Here,**-ns** represents noise standard deviation (i.e., -ns=15, 25, 50),**-s** presents root of source images (i.e., testingImages/), **-d** presents destination root (modelOutput/)
 
 # Training
 **To train with your own dataset execute:**</br>
 ```python main.py -ts -e X -b Y```
-To specify your trining images path, go to mainModule/config.json and update "trainingImagePath" entity. </br>You can specify the number of epoch with -e flag (i.e., -e 5) and number of images per batch with -b flag (i.e., b 24).</br>
+To specify your trining images path, go to mainModule/config.json and update "trainingImagePath" entity. </br>You can specify the number of epoch with **-e** flag (i.e., -e 5) and number of images per batch with **-b** flag (i.e., b 24).</br>
 
 **For transfer learning execute:**</br>
 ```python main.py -tr -e -b ```
