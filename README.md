@@ -15,19 +15,19 @@ obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by D
 (proposed). (f) Reference sharp image.
 
 # Requirements
-**Python 3.8** </br>
-Pytoch 1.5 
-Torchvision 0.6
+**Python 3.8 </br>
+Pytoch 1.5 </br>
+Torchvision 0.6 </br>
 Cuda 10.1
-Opencv
-scikit-learn
+Opencv </br>
+scikit-learn </br>**
 
 # Installation
-'''
+```
 git clone https://github.com/sharif-apu/MID-DRAN.git
 cd MID-DRAN
 pip install -r requirement.txt
-'''
+```
 
 # Testing
 DRAN can be inferenced with pretrained weights and default setting as follows:
@@ -43,7 +43,7 @@ Here,-ns represents noise standard deviation (i.e., -ns=15,25,50), -s presents r
 
 # Training
 To train with your own dataset execute:
-python main.py -ts -e X -b Y
+```python main.py -ts -e X -b Y```
 To specify your trining images path, go to mainModule/config.json and update "trainingImagePath" entity. You can specify the number of epoch with -e flag (i.e., -e 5) and number of images per batch with -b flag (i.e., b 24).
 
 For transfer learning execute:
