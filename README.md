@@ -29,17 +29,17 @@ method illustrates the consistency and outperforms the existing denoising method
 
 # Requirements
 ```Python 3.8 
-scikit-image
 Pytoch 1.5 
 Torchvision 0.6 
 Cuda 10.1  
 Opencv 
-scikit-image
-tensorboard
-etaprogress
-torchsummary
-ptflops
-matplotlib
+Scikit-image
+Scikit-learn
+Tensorboard
+Etaprogress
+Torchsummary
+Ptflops
+Matplotlib
 ```
 
 # Installation
