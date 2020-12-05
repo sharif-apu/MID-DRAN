@@ -33,8 +33,7 @@ Pytoch 1.5
 Torchvision 0.6 
 Cuda 10.1  
 Opencv 
-Scikit-image
-Scikit-learn
+Scikit
 Tensorboard
 Etaprogress
 Torchsummary
