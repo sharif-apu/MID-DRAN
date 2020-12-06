@@ -47,7 +47,6 @@ git clone https://github.com/sharif-apu/MID-DRAN.git
 cd MID-DRAN
 pip install -r requirement.txt
 ```
-</testpath/testDir>
 # Testing
 **DRAN can be inferenced with pretrained weights and default setting as follows:** </br>
 ```python main.py -i``` </br>
@@ -62,7 +61,7 @@ Here,**-ns** represents noise standard deviation (i.e., -ns=15, 25, 50),**-s** p
 # Training
 **To train with your own dataset execute:**</br>
 ```python main.py -ts -e X -b Y```
-To specify your trining images path, go to mainModule/config.json and update "trainingImagePath" entity. </br>You can specify the number of epoch with **-e** flag (i.e., -e 5) and number of images per batch with **-b** flag (i.e., b 24).</br>
+To specify your trining images path, go to mainModule/config.json and update "trainingImagePath" entity. </br>You can specify the number of epoch with **-e** flag (i.e., -e 5) and number of images per batch with **-b** flag (i.e., -b 24).</br>
 
 **For transfer learning execute:**</br>
 ```python main.py -tr -e -b ```
