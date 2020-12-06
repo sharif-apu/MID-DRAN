@@ -19,8 +19,8 @@ obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by *
 
     
 **Quantitative Comparison** </br>
-
-<img width=800 align="center"  src = "https://user-images.githubusercontent.com/15001857/101272591-c9da4580-37b7-11eb-8db8-37d7c53ed36c.png" alt="Results">  </br> 
+<p align="center">
+<img width=800 align="center"  src = "https://user-images.githubusercontent.com/15001857/101272591-c9da4580-37b7-11eb-8db8-37d7c53ed36c.png" alt="Results"> </p> </br> 
 **Table:** Quantitative comparison between different medical image denoising methods. Results are
 obtained by calculating the mean on two evaluation metrics (PSNR and SSIM). In all comparing categories, the proposed
 method illustrates the consistency and outperforms the existing denoising methods. </br>
@@ -29,8 +29,6 @@ method illustrates the consistency and outperforms the existing denoising method
 
 # Requirements
 ```Python 3.8 
-Pytoch 1.5 
-Torchvision 0.6 
 Cuda 10.1  
 Opencv 
 Scikit
@@ -47,6 +45,7 @@ git clone https://github.com/sharif-apu/MID-DRAN.git
 cd MID-DRAN
 pip install -r requirement.txt
 ```
+**We highly recommend using the virtual environment to continue the installation process.**
 # Testing
 **DRAN can be inferenced with pretrained weights and default setting as follows:** </br>
 ```python main.py -i``` </br>
