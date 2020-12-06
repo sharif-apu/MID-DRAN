@@ -13,8 +13,6 @@ def mainParser(args=sys.argv[1:]):
     parser.add_argument("-to", "--overFitTest", action='store_true', help="Over fitting testing")
     parser.add_argument("-e", "--epoch", type=int, help="Set number of epochs")
     parser.add_argument("-b", "--batch", type=int, help="Set batch size")
-    parser.add_argument("-g", "--gridSize", type=int, default=2, help="Set batch size")
-    parser.add_argument("-p", "--patch", action='store_true', help="Extract patches from target images")
     parser.add_argument("-i", "--inference", action='store_true', help="Inference with pretrained weights")
     parser.add_argument("-ns", "--noiseSigma", type=str, default=None, help="Set of sigma values to inference on pretrained weights")
     parser.add_argument("-s", "--sourceDir",  help="Directory to fetch images for testing")
