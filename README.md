@@ -32,17 +32,10 @@ method illustrates the consistency and outperforms the existing denoising method
 # Prerequisites
 ```
 Python 3.8
-Cuda 10.1
-Pytorch 1.5
-Torchvison 0.6
+CUDA 10.1
+pip
 Numpy
-Opencv 
-Scikit
-Tensorboard
-Etaprogress
-Torchsummary
-Ptflops
-Matplotlib
+Virtual environment (optional)
 ```
 
 # Installation
