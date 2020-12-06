@@ -70,8 +70,10 @@ To specify your trining images path, go to mainModule/config.json and update "tr
 # Others
 **Check model configuration:**</br>
 ```python main.py -ms``` </br>
+**Create new configuration file:**</br>
+```python main.py -c```</br>
 **Update configuration file:**</br>
-```python main.py ```-c</br>
+```python main.py -u```</br>
 **Overfitting testing** </br>
 ```python main.py -to ```</br>
 
