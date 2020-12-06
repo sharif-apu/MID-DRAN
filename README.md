@@ -29,10 +29,13 @@ method illustrates the consistency and outperforms the existing denoising method
 
 
 
-# Requirements
+# Prerequisites
 ```
-Python 3.8 
-Cuda 10.1  
+Python 3.8
+Cuda 10.1
+Pytorch 1.5
+Torchvison 0.6
+Numpy
 Opencv 
 Scikit
 Tensorboard
