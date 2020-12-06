@@ -1,8 +1,11 @@
 # Learning Medical Image Denoising with Deep Dynamic Residual Attention Network
 
-This is the official implementation of state-of-the-art medical image denoising method titled **"DRAN"**. Please consider to cite this paper as follows:
+This is the official implementation of state-of-the-art medical image denoising method titled **"DRAN"**. **[[Click Here](https://smasharif.info)]:** to download the full paper.  </br>
 
-**[[Click Here](https://ieeexplore.ieee.org/document/8963625)]:** to download the full paper. </br>
+**Please consider to cite this paper as follows:**
+```
+
+```
 
 # Network Architecture
 
