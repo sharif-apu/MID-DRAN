@@ -14,7 +14,7 @@ This is the official implementation of state-of-the-art medical image denoising 
 **Qualitative Comparison** </br>
 
 <img align="center" src = "https://user-images.githubusercontent.com/15001857/101258714-93b4ab80-374e-11eb-984d-9f64fd14bf63.png" alt="Results"> </br>
-**Figure:** </em> Performance of existing medical image denoising methods in removing image noise at **sigma = 50**.The existing denoising methods immensely failed in addressing a substantial amount of noise removal and susceptible to produce artefacts. (a) Noisy input. (b) Result obtained by BM3D. (c) Result
+**Figure:** </em> Performance of existing medical image denoising methods in removing image noise at **sigma = 50**. The existing denoising methods immensely failed in addressing a substantial amount of noise removal and susceptible to produce artefacts. (a) Noisy input. (b) Result obtained by BM3D. (c) Result
 obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by **DRAN**. (f) Reference Image.
 
     
@@ -22,7 +22,7 @@ obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by *
 
 <img width=800 align="center"  src = "https://user-images.githubusercontent.com/15001857/101272591-c9da4580-37b7-11eb-8db8-37d7c53ed36c.png" alt="Results">  </br> 
 **Table:** Quantitative comparison between different medical image denoising methods. Results are
-obtained by calculating the mean on two evaluation metrics. In all comparing categories, the proposed
+obtained by calculating the mean on two evaluation metrics (PSNR and SSIM). In all comparing categories, the proposed
 method illustrates the consistency and outperforms the existing denoising methods. </br>
 
 
