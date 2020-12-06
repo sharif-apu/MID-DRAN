@@ -34,7 +34,6 @@ method illustrates the consistency and outperforms the existing denoising method
 Python 3.8
 CUDA 10.1
 pip
-Numpy
 Virtual environment (optional)
 ```
 
