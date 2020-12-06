@@ -43,7 +43,7 @@ git clone https://github.com/sharif-apu/MID-DRAN.git
 cd MID-DRAN
 pip install -r requirement.txt
 ```
-**We highly recommend using the virtual environment to continue the installation process.**
+**Please consider using a virtual environment to continue the installation process.**
 # Testing
 **DRAN can be inferenced with pretrained weights and default setting as follows:** </br>
 ```python main.py -i``` </br>
