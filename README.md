@@ -17,6 +17,7 @@ This is the official implementation of state-of-the-art medical image denoising 
 <p align="center">
  <img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/101642681-79841180-3a5d-11eb-9dcf-ae9db1e757f9.png" alt="network"> </br>
 </p>
+
 **Figure:** The overview of proposed network architecture. The proposed network incorporates novel dynamic residual attention blocks, which utilizes dynamic convolution and a noise gate. Also, the network leverage the residual learning along with the learning feature correlation.
 
 
@@ -44,7 +45,7 @@ method illustrates the consistency and outperforms the existing denoising method
 # Prerequisites
 ```
 Python 3.8
-CUDA 10.1
+CUDA 10.1 + CuDNN
 pip
 Virtual environment (optional)
 ```
