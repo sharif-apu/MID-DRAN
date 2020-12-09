@@ -10,6 +10,7 @@ This is the official implementation of state-of-the-art medical image denoising 
 <p align="center">
 <img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/101650013-af2cf880-3a65-11eb-9f23-30e85d054011.png" alt="Overview"> </br>
 </p>
+
 **Figure:** Overview of proposed medical image denoising method. 
 
 # Network Architecture
