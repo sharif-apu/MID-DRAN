@@ -3,7 +3,7 @@
 This is the official implementation of state-of-the-art medical image denoising method titled as **"Dynamic Residual Attention Network (DRAN)"**. **[[Click Here](https://www.mdpi.com/2227-7390/8/12/2192/pdf)]** to download the full paper (in PDF).  </br>
 
 **Please consider to cite this paper as follows:**
-
+```
 @article{sharif2020dynamic,
   title={Learning Medical Image Denoising with Deep Dynamic Residual Attention Network},
   author={Sharif, SMA and Naqvi, Rizwan Ali and Biswas, Mithun},
@@ -14,7 +14,7 @@ This is the official implementation of state-of-the-art medical image denoising 
   year={2020},
   publisher={Multidisciplinary Digital Publishing Institute}
 }
-
+```
 # Overview
 <p align="center">
 <img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/101650013-af2cf880-3a65-11eb-9f23-30e85d054011.png" alt="Overview"> </br>
