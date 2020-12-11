@@ -4,7 +4,6 @@ This is the official implementation of state-of-the-art medical image denoising 
 
 **Please consider to cite this paper as follows:**
 
-```
 @article{sharif2020dynamic,
   title={Learning Medical Image Denoising with Deep Dynamic Residual Attention Network},
   author={Sharif, SMA and Naqvi, Rizwan Ali and Biswas, Mithun},
@@ -14,7 +13,7 @@ This is the official implementation of state-of-the-art medical image denoising 
   pages={2192},
   year={2020},
   publisher={Multidisciplinary Digital Publishing Institute}
-}```
+}
 
 # Overview
 <p align="center">
