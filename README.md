@@ -72,7 +72,7 @@ pip install -r requirement.txt
 ```python main.py -i``` </br>
 
 A few testing images are provided in a sub-directory under testingImages (i.e., testingImages/sampleImages/)</br>
-Denoised image(s) will be available in modelOutput/sampleImages/ </br>
+In such occasion, denoised image(s) will be available in modelOutput/sampleImages/. </br>
 
 **To inference with custom setting execute the following command:**</br>
 ```python main.py -i -s path/to/inputImages -d path/to/outputImages -ns=sigma(s)``` </br>
