@@ -9,7 +9,7 @@ This is the official implementation of state-of-the-art medical image denoising 
   author={Sharif, SMA and Naqvi, Rizwan Ali and Biswas, Mithun},
   journal={Mathematics},
   volume={8},
-  number={10},
+  number={12},
   pages={2192},
   year={2020},
   publisher={Multidisciplinary Digital Publishing Institute}
