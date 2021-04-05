@@ -35,6 +35,6 @@ def mainParser(args=sys.argv[1:]):
     if options.dataSamples and (not (options.dataSampling == True or options.resumeDataSampling == True or options.train == True or options.retrain == True)):
         parser.error("--please enable data sampling (-ds) or resume data sampling (-dr) flag prior to set the number of target samples")
     
-    if options.patch and (not (options.sourceDir and options.resultDir)):
-        parser.error("--please provide the path to extract patches and saving directory!")
+    #if options.patch and (not (options.sourceDir and options.resultDir)):
+    #    parser.error("--please provide the path to extract patches and saving directory!")
     return options
