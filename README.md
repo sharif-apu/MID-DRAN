@@ -98,4 +98,4 @@ To specify your trining images path, go to mainModule/config.json and update "tr
 ```python main.py -to ```</br>
 
 # Contact
-For any further query, feel free to contact us through the following emails: sma.sharif.cse@ulab.edu.bd, rizwanali@sejong.ac.kr, or mithun.bishwash.cse@ulab.edu.bd
+For any further query, feel free to contact us through the following emails: apuism@gmail.com, rizwanali@sejong.ac.kr, or mithun.bishwash.cse@ulab.edu.bd
