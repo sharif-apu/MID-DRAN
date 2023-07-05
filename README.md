@@ -1,8 +1,10 @@
 # Learning Medical Image Denoising with Deep Dynamic Residual Attention Network
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-medical-image-denoising-with-deep/medical-image-denoising-on-dermatologist)](https://paperswithcode.com/sota/medical-image-denoising-on-dermatologist?p=learning-medical-image-denoising-with-deep)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-medical-image-denoising-with-deep/medical-image-denoising-on-human-protein)](https://paperswithcode.com/sota/medical-image-denoising-on-human-protein?p=learning-medical-image-denoising-with-deep)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-medical-image-denoising-with-deep/medical-image-denoising-on-lgg-segmentation)](https://paperswithcode.com/sota/medical-image-denoising-on-lgg-segmentation?p=learning-medical-image-denoising-with-deep)
 This is the official implementation of a state-of-the-art medical image denoising method titled as **"Dynamic Residual Attention Network (DRAN)"**. **[[Click Here](https://www.mdpi.com/2227-7390/8/12/2192/pdf)]** to download the full paper (in PDF).  </br>
 
-**Please consider to cite this paper as follows:**
+**Please consider citing this paper as follows:**
 ```
 @article{sharif2020learning,
   title={Learning Medical Image Denoising with Deep Dynamic Residual Attention Network},
