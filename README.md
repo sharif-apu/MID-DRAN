@@ -19,6 +19,24 @@ This is the official implementation of a state-of-the-art medical image denoisin
   publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
+
+Explore our work on medical image deblurring **[[Here](https://github.com/sharif-apu/MedDeblur)]**
+**Consider citing our deblurring paper as follows:**
+
+```
+@article{sharif2022meddeblur,
+  title={MedDeblur: Medical Image Deblurring with Residual Dense Spatial-Asymmetric Attention},
+  author={Sharif, SMA and Naqvi, Rizwan Ali and Mehmood, Zahid and Hussain, Jamil and Ali, Ahsan and Lee, Seung-Won},
+  journal={Mathematics},
+  volume={11},
+  number={1},
+  pages={115},
+  year={2022},
+  publisher={MDPI}
+}
+
+```
+
 # Overview
 <p align="center">
 <img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/101650013-af2cf880-3a65-11eb-9f23-30e85d054011.png" alt="Overview"> </br>
