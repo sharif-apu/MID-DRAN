@@ -20,7 +20,8 @@ This is the official implementation of a state-of-the-art medical image denoisin
 }
 ```
 
-Explore our work on medical image deblurring **[[Here](https://github.com/sharif-apu/MedDeblur)]**
+Explore our work on medical image deblurring **[[Here](https://github.com/sharif-apu/MedDeblur)]**.
+
 **Consider citing our deblurring paper as follows:**
 
 ```
